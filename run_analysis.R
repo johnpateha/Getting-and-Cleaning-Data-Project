@@ -16,7 +16,7 @@ run_analysis <- function() {
 # New dataset variables discribed at "CodeBook.md"
         
 # main steps: 
-# 1. Load variable names, create list, which consists mean() and std() in names. 
+# 1. Load variable names, create list, which contains mean() and std() in names. 
 # Change short names to descriptive
 # 2. Load and merge X_test and X_train datasets. 
 # Use only variables with mean() and std() in features names.
@@ -48,8 +48,7 @@ run_analysis <- function() {
         
         # change features names to descriptive names by function discriptivenames 
         new_feat <- discriptivenames(feat)
-        
-        
+
         # load data, for x tables use only columns with mean or std features
         X1 <- read.table("test/X_test.txt", header = FALSE)[,feat_ind]
         X2 <- read.table("train/X_train.txt", header = FALSE)[,feat_ind]

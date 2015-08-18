@@ -1,6 +1,8 @@
 ## Coursera course "Getting and Cleaning Data"
 Project completed 18.08.2015 by Evgeny Patekha
 
+## Readme
+
 ================================================================================
 ## Project's result includes the following files:
 
@@ -10,6 +12,7 @@ Project completed 18.08.2015 by Evgeny Patekha
 merge all data in one dataset, change short variables names to discriptive 
 and create new tidy dataset with the average of each variable for each activity 
 and each subject.
+- DS_Avg.txt - new data set (project's result)
 
 ================================================================================
 
@@ -85,6 +88,7 @@ and the estimated body acceleration.
 - A 561-feature vector with time and frequency domain variables. 
 - Its activity label. 
 - An identifier of the subject who carried out the experiment.
+
 ================================================================================
 
 The initial dataset includes the following files:
