@@ -1,5 +1,5 @@
-# Coursera course "Getting and Cleaning Data"
-## Project completed 18.08.2015 by Evgeny Patekha
+## Coursera course "Getting and Cleaning Data"
+Project completed 18.08.2015 by Evgeny Patekha
 
 ================================================================================
 ## Project's result includes the following files:
@@ -17,18 +17,18 @@ The purpose of this project is to demonstrate ability to collect, work with,
 and clean a data set. 
 The goal is to prepare tidy data that can be used for later analysis. 
 It required to submit: 
-1) a tidy data set as described below, 
-2) a link to a Github repository with script for performing the analysis, 
-3) a code book that describes the variables, the data, and any transformations 
+ - a tidy data set as described below, 
+ - a link to a Github repository with script for performing the analysis, 
+ - a code book that describes the variables, the data, and any transformations 
 or work that performed to clean up the data called CodeBook.md. 
 
 Created one R script called run_analysis.R that does the following: 
-1. Merges the training and the test sets to create one data set.
-2. Extracts only the measurements on the mean and standard deviation 
+ - Merges the training and the test sets to create one data set.
+ - Extracts only the measurements on the mean and standard deviation 
 for each measurement. 
-3. Uses descriptive activity names to name the activities in the data set
-4. Appropriately labels the data set with descriptive variable names.
-5. From the data set in step 4, creates a second, independent tidy data set 
+ - Uses descriptive activity names to name the activities in the data set
+ - Appropriately labels the data set with descriptive variable names.
+ - From the data set in prev step, creates a second, independent tidy data set 
 with the average of each variable for each activity and each subject.
 
 
@@ -36,6 +36,7 @@ All steps of project and created data set described in CodeBook.md
 
 ================================================================================
 ## About initial dataset
+
 
 Project use initial data set from 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
@@ -51,7 +52,7 @@ activityrecognition@smartlab.ws
 www.smartlab.ws
 
 ================================================================================
-Initial data set is result of experiments with Smung smartphone. 
+Initial data set is result of experiments with Samsung smartphone. 
 This is brief explanations of experiment:
 
 The experiments have been carried out with a group of 30 volunteers within an 
@@ -111,8 +112,5 @@ obtained by subtracting the gravity from the total acceleration.
 measured by the gyroscope for each window sample. The units are radians/second. 
 
 Notes: 
-- Features are normalized and bounded within [-1,1].
-- Each feature vector is a row on the text file.
-================================================================================
-
-
+- Features are normalized and bounded within [-1,1]
+- Each feature vector is a row on the text file
