@@ -3,11 +3,9 @@ Project completed 18.08.2015 by Evgeny Patekha
 
 ## CodeBook
 
-================================================================================
 This file describes the data, the variables, and transformations of data
 
 ================================================================================
-
 ## Datasource 
 
 Project uses data from archive, which contains result of experiments with 
@@ -33,7 +31,6 @@ for each measurement.
 with the average of each variable for each activity and each subject.
 
 ================================================================================
-
 ## Work discription
 
  - Load variable names from file "features.txt", create index list, 
@@ -78,21 +75,20 @@ with the average of each variable for each activity and each subject.
  data set as result.
  
  ================================================================================
-
  ### To run scrypt use command
  
-        New_DS <- run_analysis() .
+        New_DS <- run_analysis()
  
  ### To load file with new dataset use command 
  
         New_DS <- read.table("DS_Avg.txt", header = TRUE, check.names=FALSE) 
 
 
- ### Attention: function use library dplyr and it should be installed
- ### Working directory should contain unpacked data
+ ### Attention:
+ - function use library dplyr and it should be installed
+ - working directory should contain unpacked data
         
  ================================================================================
-
 ## New dataset description
 
 New dataset contains 180 rows and 68 variables
@@ -130,35 +126,35 @@ These signals were used to estimate variables of the feature vector for each pat
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
 
-"timeBodyAcceleration_X"
-"timeBodyAcceleration_Y"
-"timeBodyAcceleration_Z"
-"timeGravityAcceleration_X"
-"timeGravityAcceleration_Y"
-"timeGravityAcceleration_Z"
-"timeBodyAccelerationJerk_X"
-"timeBodyAccelerationJerk_Y"
-"timeBodyAccelerationJerk_Z"
-"timeBodyGyroscope_X"
-"timeBodyGyroscope_Y"
-"timeBodyGyroscope_Z"
-"timeBodyGyroscopeJerk_X"
-"timeBodyGyroscopeJerk_Y"
-"timeBodyGyroscopeJerk_Z"
-"timeBodyAccelerationMagnitude"
-"timeGravityAccelerationMagnitude"
-"timeBodyAccelerationJerkMagnitude"
-"timeBodyGyroscopeMagnitude"
-"timeBodyGyroscopeJerkMagnitude"
-"freqBodyAcceleration_X"
-"freqBodyAcceleration_Y"
-"freqBodyAcceleration_Z"
-"freqBodyAccelerationJerk_X"
-"freqBodyAccelerationJerk_Y"
-"freqBodyAccelerationJerk_Z"
-"freqBodyGyroscope_X"
-"freqBodyGyroscope_Y"
-"freqBodyGyroscope_Z"
-"freqBodyAccelerationJerkMagnitude"
-"freqBodyGyroscopeMagnitude"
-"freqBodyGyroscopeJerkMagnitude"
+ - "timeBodyAcceleration_X"
+ - "timeBodyAcceleration_Y"
+ - "timeBodyAcceleration_Z"
+ - "timeGravityAcceleration_X"
+ - "timeGravityAcceleration_Y"
+ - "timeGravityAcceleration_Z"
+ - "timeBodyAccelerationJerk_X"
+ - "timeBodyAccelerationJerk_Y"
+ - "timeBodyAccelerationJerk_Z"
+ - "timeBodyGyroscope_X"
+ - "timeBodyGyroscope_Y"
+ - "timeBodyGyroscope_Z"
+ - "timeBodyGyroscopeJerk_X"
+ - "timeBodyGyroscopeJerk_Y"
+ - "timeBodyGyroscopeJerk_Z"
+ - "timeBodyAccelerationMagnitude"
+ - "timeGravityAccelerationMagnitude"
+ - "timeBodyAccelerationJerkMagnitude"
+ - "timeBodyGyroscopeMagnitude"
+ - "timeBodyGyroscopeJerkMagnitude"
+ - "freqBodyAcceleration_X"
+ - "freqBodyAcceleration_Y"
+ - "freqBodyAcceleration_Z"
+ - "freqBodyAccelerationJerk_X"
+ - "freqBodyAccelerationJerk_Y"
+ - "freqBodyAccelerationJerk_Z"
+ - "freqBodyGyroscope_X"
+ - "freqBodyGyroscope_Y"
+ - "freqBodyGyroscope_Z"
+ - "freqBodyAccelerationJerkMagnitude"
+ - "freqBodyGyroscopeMagnitude"
+ - "freqBodyGyroscopeJerkMagnitude"
