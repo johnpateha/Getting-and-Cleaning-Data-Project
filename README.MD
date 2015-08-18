@@ -35,7 +35,37 @@ for each measurement.
 with the average of each variable for each activity and each subject.
 
 
-All steps of project and created data set described in CodeBook.md
+================================================================================
+## Work discription
+
+ - Load variable names from file "features.txt", create index list, 
+ which contains mean() and std() in names. Change short names to descriptive.
+ Use substitution function for change names. Substitution patterns made manually
+ - Load and merge X_test and X_train datasets. Use only variables with mean()
+ and std() in features names. Assign discriptive names to merged dataset's 
+ variables, which made before
+ - Load data with activity and subject variables, merge them similary to X data, 
+ assign names "Activity"" and "Subject"
+ - Merge all data in one data set
+ - Label activity data by specific names from file "activity_labels.txt"
+ - Group data by Subject and Activity for new dataset output and create 
+ new data set. It srored in WD as file "DS_Avg.txt". Also function return new 
+ data set as result.
+ 
+ ================================================================================
+ ### To run scrypt use command
+ 
+        New_DS <- run_analysis()
+ 
+ ### To load file with new dataset use command 
+ 
+        New_DS <- read.table("DS_Avg.txt", header = TRUE, check.names=FALSE) 
+
+
+ ### Attention:
+ - function use library dplyr and it should be installed
+ - working directory should contain unpacked data
+        
 
 ================================================================================
 ## About initial dataset
