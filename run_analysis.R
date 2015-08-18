@@ -1,6 +1,3 @@
-setwd("c:/My/_BigData/_NewRWorkDir/UCI HAR Dataset")
-#q <- t(rbind(feat,new_feat))
-
 
 run_analysis <- function() {
 # This function is result of project for Coursera course 
